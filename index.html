@@ -7,6 +7,7 @@
   </head>
   <body>
     <center>
+      <!-- This is the header Section  -->
       <header>
         <nav>
           <a href="#home">Home</a>
@@ -26,6 +27,9 @@
           <option>FR</option>
           <option>EN</option>
         </select>
+        <br />
+        <br />
+        <hr size="2" noshade="1" color="blue" />
         <h1>Welcome to My Profile</h1>
         <p>
           Hello and thank you for visiting my profile! I'm thrilled to have you
@@ -35,6 +39,7 @@
           I'm delighted to share a bit about myself with you.
         </p>
       </section>
+      <hr size="2" noshade="1" color="blue" />
 
       <section id="about">
         <h1>About Me</h1>
@@ -86,16 +91,17 @@
           </tr>
         </table>
       </section>
-
+      <hr size="2" noshade="1" color="blue" />
       <section id="work">
         <h1>My Work</h1>
         <p>Explore some of my recent design projects:</p>
-        <ul>
+        <ul style="list-style-type: none">
           <li><a href="project1.html">Project 1 - Logo Design</a></li>
           <li><a href="project2.html">Project 2 - Poster Design</a></li>
           <li><a href="project3.html">Project 3 - Digital Illustration</a></li>
         </ul>
       </section>
+      <hr size="2" noshade="1" color="blue" />
       <section id="resume">
         <h1>Resume</h1>
         <a href="your-resume.pdf" download>Download My Resume</a>
@@ -109,17 +115,23 @@
             id="name"
             name="name"
             placeholder="type your name"
-            required
+            requiblue
           /><br /><br />
           <input
             type="Date"
             id="Date"
             name="Date"
             placeholder="enter you date"
-            required
+            requiblue
           /><br /><br />
           <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required /><br /><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="enter you email"
+            requiblue
+          /><br /><br />
 
           <label for="gender">Gender:</label><br />
           <input type="radio" id="male" name="gender" value="Male" />
@@ -129,7 +141,7 @@
           <label for="female">Female</label><br /><br />
 
           <label for="message">Message:</label><br />
-          <textarea id="message" name="message" rows="4" required></textarea
+          <textarea id="message" name="message" rows="4" requiblue></textarea
           ><br /><br />
 
           <input type="submit" value="Submit" />
